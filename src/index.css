@@ -2,7 +2,9 @@
 body{
   font-family: 'Times New Roman', Times, serif;
   /*background: rgba(5 57 112 / 67%);*/
-  background-image: url("img.jpg");
+  background: url("/src/img.jpg") no-repeat ;
+  background-size: cover;
+
   
 }
 
@@ -60,12 +62,12 @@ input[type="checkbox"] {
 button {
   cursor: pointer;
   /*background: #007bff;*/
-  background: linear-gradient(120deg, rgb(0 123 255 / 67%), rgb(255 108 0 / 76%));
+  background: white;
   width: 100%;
   border: 0;
   border-radius: 0.2rem;
   padding: 10px 15px;
-  color: #fff;
+  color: black;
   font-size: 20px;
   transition: 0.3s linear;
 }
@@ -127,16 +129,23 @@ button {
   width: 320px;
   background: #fff;
   margin: 40px auto;
-  min-height: 200px;
+  min-height: 400px;
   border: 1px solid #f3f3f3;
   border-radius: 0.5rem;
+  opacity: 0.5;
+
 }
 .wrapper .inner-warpper {
-  padding: 50px 30px 20px;
-  box-shadow: 1px 1.732px 10px 0px rgba(0, 0, 0, 0.063);
+  padding: 50px 30px;
+  background-color: black;
+  border-radius: 0.5rem;
+  border: none;
+  /* opacity: 0.5; */
+
 }
 .wrapper .title {
   margin-top: 0;
+  color: white;
 }
 .wrapper .supporter {
   margin-top: 10px;

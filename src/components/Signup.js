@@ -7,7 +7,6 @@ function Signup() {
     <>
 
       <div className="start text-center">
-        <h2>*Signup to get exciting offers!!</h2>
       </div>
       <div className="wrapper">
         <div className="inner-warpper text-center">
@@ -43,13 +42,6 @@ function Signup() {
             </div>
 
             <button type="submit" id="Signup">Signup</button>
-            <div className="clearfix supporter">
-              <div className="pull-left remember-me">
-                <input id="rememberMe" type="checkbox" />
-                <label htmlFor="rememberMe">I agree </label>
-              </div>
-              <Link className="forgot pull-right " to="/">Terms and Conditions</Link>
-            </div>
           </form>
         </div>
         <div className="signup-wrapper text-center">
